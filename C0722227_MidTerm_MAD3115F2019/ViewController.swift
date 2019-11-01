@@ -18,7 +18,22 @@ class ViewController: UIViewController
     @IBOutlet weak var rememberme: UISwitch!
     
     
-    @IBAction func login(_ sender: Any) {
+    @IBAction func login(_ sender: Any)
+    {
+        let name = txtemail.text!
+        let password = txtpassword.text!
+        if name == "harpreetsingh" && password == "singh1010"
+        {
+            
+            let sb=UIStoryboard(name: "Main", bundle: nil)
+            let CustVC = sb.instantiateViewController(withIdentifier: "CustVC") as! CustomerListTableViewController
+            navigationController?.pushViewController(CustVC, animated: true)
+        }
+        else{
+            
+        }
     }
+
+        
 }
 
