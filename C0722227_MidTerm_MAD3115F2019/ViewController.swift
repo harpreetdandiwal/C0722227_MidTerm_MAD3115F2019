@@ -8,8 +8,17 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController
+{
+@IBOutlet weak var txtemail: UITextField!
     
+    @IBOutlet weak var txtpassword: UITextField!
+    
+
+    @IBOutlet weak var rememberme: UISwitch!
+    
+    
+    @IBAction func login(_ sender: Any) {
+    }
 }
 
