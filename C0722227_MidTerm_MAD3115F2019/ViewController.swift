@@ -8,37 +8,29 @@
 
 import UIKit
 
-class ViewController: UIViewController
-{
-@IBOutlet weak var txtemail: UITextField!
+class ViewController: UIViewController {
     
     @IBOutlet weak var txtpassword: UITextField!
     
-
     @IBOutlet weak var rememberme: UISwitch!
-    
-    
-    @IBAction func login(_ sender: Any)
-    {
-        let name = txtemail.text!
-        let password = txtpassword.text!
-        if name == "harpreetsingh" && password == "singh1010"
-        {
-            
-            let sb=UIStoryboard(name: "Main", bundle: nil)
-            let CustVC = sb.instantiateViewController(withIdentifier: "CustVC") as! CustomerListTableViewController
-            navigationController?.pushViewController(CustVC, animated: true)
-        }
-        else{
-            let alert = UIAlertController(title: "Invalid Username Or Password", message: "Please Enter Valid username or password", preferredStyle: .alert)
-            
-            alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: nil))
-            alert.addAction(UIAlertAction(title: "No", style: .cancel, handler: nil))
-            
-            self.present(alert, animated: true)
-        }
+    @IBOutlet weak var txtemail: UITextField!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
     }
+    
+    @IBAction func Login(_ sender: Any) {
+    }
+    
+    /*
+    // MARK: - Navigation
 
-        
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
 }
-

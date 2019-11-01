@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		9BD23EED236CB37500EE9DCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD23EEC236CB37500EE9DCD /* AppDelegate.swift */; };
-		9BD23EEF236CB37500EE9DCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD23EEE236CB37500EE9DCD /* ViewController.swift */; };
 		9BD23EF2236CB37500EE9DCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD23EF0236CB37500EE9DCD /* Main.storyboard */; };
 		9BD23EF4236CB37800EE9DCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD23EF3236CB37800EE9DCD /* Assets.xcassets */; };
 		9BD23EF7236CB37800EE9DCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD23EF5236CB37800EE9DCD /* LaunchScreen.storyboard */; };
 		9BD23EFF236CB53E00EE9DCD /* Image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BD23EFE236CB53E00EE9DCD /* Image1.png */; };
 		9BD23F01236CC0F800EE9DCD /* CustomerListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD23F00236CC0F800EE9DCD /* CustomerListTableViewController.swift */; };
+		9BD23F03236CC6C000EE9DCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD23F02236CC6C000EE9DCD /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9BD23EE9236CB37500EE9DCD /* C0722227_MidTerm_MAD3115F2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C0722227_MidTerm_MAD3115F2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD23EEC236CB37500EE9DCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BD23EEE236CB37500EE9DCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9BD23EF1236CB37500EE9DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BD23EF3236CB37800EE9DCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BD23EF6236CB37800EE9DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BD23EF8236CB37800EE9DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BD23EFE236CB53E00EE9DCD /* Image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image1.png; sourceTree = "<group>"; };
 		9BD23F00236CC0F800EE9DCD /* CustomerListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerListTableViewController.swift; sourceTree = "<group>"; };
+		9BD23F02236CC6C000EE9DCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				9BD23EEC236CB37500EE9DCD /* AppDelegate.swift */,
-				9BD23EEE236CB37500EE9DCD /* ViewController.swift */,
 				9BD23EF0236CB37500EE9DCD /* Main.storyboard */,
 				9BD23EF3236CB37800EE9DCD /* Assets.xcassets */,
 				9BD23EF5236CB37800EE9DCD /* LaunchScreen.storyboard */,
 				9BD23EFE236CB53E00EE9DCD /* Image1.png */,
 				9BD23EF8236CB37800EE9DCD /* Info.plist */,
 				9BD23F00236CC0F800EE9DCD /* CustomerListTableViewController.swift */,
+				9BD23F02236CC6C000EE9DCD /* ViewController.swift */,
 			);
 			path = C0722227_MidTerm_MAD3115F2019;
 			sourceTree = "<group>";
@@ -142,7 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BD23EEF236CB37500EE9DCD /* ViewController.swift in Sources */,
+				9BD23F03236CC6C000EE9DCD /* ViewController.swift in Sources */,
 				9BD23F01236CC0F800EE9DCD /* CustomerListTableViewController.swift in Sources */,
 				9BD23EED236CB37500EE9DCD /* AppDelegate.swift in Sources */,
 			);

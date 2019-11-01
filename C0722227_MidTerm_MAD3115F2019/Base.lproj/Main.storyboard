@@ -61,17 +61,16 @@
                         <barButtonItem key="backBarButtonItem" title="Log Out" id="rFW-ZJ-Eqa"/>
                         <barButtonItem key="rightBarButtonItem" title="Log In" id="rvR-PD-3tu">
                             <connections>
-                                <action selector="login:" destination="BYZ-38-t0r" id="70O-Sf-O3s"/>
-                                <segue destination="zzf-m0-z4j" kind="show" id="hPF-cg-IvZ"/>
+                                <action selector="Login:" destination="BYZ-38-t0r" id="rvB-oW-nqZ"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="email" destination="Xtd-Le-VGA" id="TiN-b1-8yX"/>
                         <outlet property="password" destination="YdR-d1-ph9" id="BeP-GP-isF"/>
-                        <outlet property="rememberme" destination="9Kx-6Q-3rb" id="6tL-oA-KBe"/>
-                        <outlet property="txtemail" destination="Xtd-Le-VGA" id="6HM-Ev-4p7"/>
-                        <outlet property="txtpassword" destination="YdR-d1-ph9" id="G9K-vw-Wfr"/>
+                        <outlet property="rememberme" destination="9Kx-6Q-3rb" id="jLf-gA-w3P"/>
+                        <outlet property="txtemail" destination="Xtd-Le-VGA" id="dum-hB-tST"/>
+                        <outlet property="txtpassword" destination="YdR-d1-ph9" id="ViN-bA-w4y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
