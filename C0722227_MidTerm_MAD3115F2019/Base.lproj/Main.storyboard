@@ -66,8 +66,6 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="email" destination="Xtd-Le-VGA" id="TiN-b1-8yX"/>
-                        <outlet property="password" destination="YdR-d1-ph9" id="BeP-GP-isF"/>
                         <outlet property="rememberme" destination="9Kx-6Q-3rb" id="jLf-gA-w3P"/>
                         <outlet property="txtemail" destination="Xtd-Le-VGA" id="dum-hB-tST"/>
                         <outlet property="txtpassword" destination="YdR-d1-ph9" id="ViN-bA-w4y"/>

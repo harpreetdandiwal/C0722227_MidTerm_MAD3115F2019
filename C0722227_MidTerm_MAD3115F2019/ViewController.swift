@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     @IBAction func Login(_ sender: Any) {
         let name = txtemail.text!
         let password = txtpassword.text!
-        if name == "varinderdhillon" && password == "admin123"
+        if name == "harpreetsingh123@gmail.com" && password == "singh1010"
         {
             
             let sb=UIStoryboard(name: "Main", bundle: nil)
@@ -54,4 +54,4 @@ class ViewController: UIViewController {
     }
     */
 
-}
+
