@@ -24,7 +24,7 @@ class CustomerListViewController: UIViewController,UITableViewDelegate , UITable
         readCustomersPlistFile()
         
         
-        let bill1: Mobile = Mobile(Id: 1, billDate: Date(), billType: billTypes.Mobile, totalBillAmount: 55.25, mobileManufacturer: "Nokia 1100", planName: "Talk and text", mobileNumber: "+12561458962", internetUsed: 0, minuteUsed: 56)
+        let bill1: Mobile = Mobile(Id: 1, billDate: Date(), billType: billTypes.Mobile, totalBillAmount: 45.77, mobileManufacturer: "Nokia 1100", planName: "Talk and text", mobileNumber: "+12561458962", internetUsed: 0, minuteUsed: 56)
         let bill2: Mobile = Mobile(Id: 2, billDate: Date(), billType: billTypes.Mobile, totalBillAmount: 45.32, mobileManufacturer: "smsngs9", planName: "LTE  pitch plan", mobileNumber: "+14458515986", internetUsed: 67, minuteUsed: 456)
         
         let bill3: Internet = Internet(Id: 1, billDate: Date(), billType: billTypes.Internet, totalBillAmount: 100.00, providerName: "Fido", internetUsed: 123)
