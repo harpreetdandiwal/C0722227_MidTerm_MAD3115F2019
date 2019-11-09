@@ -25,9 +25,9 @@ class CustomerListViewController: UIViewController,UITableViewDelegate , UITable
         
         
         let bill1: Mobile = Mobile(Id: 1, billDate: Date(), billType: billTypes.Mobile, totalBillAmount: 45.77, mobileManufacturer: "Nokia 1100", planName: "Talk and text", mobileNumber: "+12561458962", internetUsed: 0, minuteUsed: 56)
-        let bill2: Mobile = Mobile(Id: 2, billDate: Date(), billType: billTypes.Mobile, totalBillAmount: 35.88, mobileManufacturer: "smsngs9", planName: "LTE  pitch plan", mobileNumber: "+14458515986", internetUsed: 67, minuteUsed: 456)
+        let bill2: Mobile = Mobile(Id: 2, billDate: Date(), billType: billTypes.Mobile, totalBillAmount: 35.88, mobileManufacturer: "samsung", planName: "LTE  pitch plan", mobileNumber: "+14458515986", internetUsed: 67, minuteUsed: 456)
         
-        let bill3: Internet = Internet(Id: 1, billDate: Date(), billType: billTypes.Internet, totalBillAmount: 100.00, providerName: "Fido", internetUsed: 123)
+        let bill3: Internet = Internet(Id: 1, billDate: Date(), billType: billTypes.Internet, totalBillAmount: 150.00, providerName: "Fido", internetUsed: 123)
         let bill4: Internet = Internet(Id: 2, billDate: Date(), billType: billTypes.Internet, totalBillAmount: 200.02, providerName: "Freedom", internetUsed: 500)
         
         let bill5: Hydro = Hydro(Id: 1, billDate: Date(), billType: billTypes.Hydro, totalBillAmount: 1000.20, agencyName: "Planet Energy", unitconsumed: 120)
