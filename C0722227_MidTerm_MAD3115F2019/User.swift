@@ -22,13 +22,14 @@ class User
         
     }
     init(email : String,password : String)
+        
     {
         self.userId = User.USER_ID_COUNTER + 1
         self.email = email
         self.password = password
     }
     
-    /*   static func addCustomer(customer : Customer)
+    /*   static func addCustomer(customer:Customer)
      {
      customers.updateValue(customer, forKey: customer.customerId)
      print("Added customer in User Class")
