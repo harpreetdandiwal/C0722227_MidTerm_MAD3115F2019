@@ -12,6 +12,6 @@ struct UsersStruct {
     let userId : Int
     var name : String
     //var customerLName : String
-    var email : String
-    var password : String
+     var email : String
+     var password : String
 }
