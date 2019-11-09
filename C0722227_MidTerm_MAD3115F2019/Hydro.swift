@@ -18,6 +18,7 @@ class Hydro: Bill
         self.unitconsumed = unitconsumed
         
         super.init(Id: Id, billDate: billDate, billType: billType, totalBillAmount: totalBillAmount)
+        
     }
     
 }
