@@ -14,7 +14,7 @@ class Customer
     var firstName : String
     var lastName: String
     
-    var fullName: String // computed variable
+    var fullName: String // computed variables
     {
         return "\(self.firstName) \(self.lastName)"
     }
