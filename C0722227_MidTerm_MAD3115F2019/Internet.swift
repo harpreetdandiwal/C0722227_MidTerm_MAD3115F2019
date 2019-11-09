@@ -8,6 +8,7 @@
 
 import Foundation
 
+// bill class initialization
 class Internet: Bill
 {
     var providerName: String
