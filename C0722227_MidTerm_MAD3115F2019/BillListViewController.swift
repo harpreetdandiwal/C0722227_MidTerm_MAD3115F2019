@@ -76,8 +76,8 @@ class BillListViewController: UIViewController , UITableViewDelegate, UITableVie
                 }
             }
         }
-        cell.textLabel?.text = "Bill ID : \(String(describing: currentbill!.Id)) \nBill Date : \(String(describing: currentbill!.billDate.getForamttedDate())) \nBill Type : \(String(describing: currentbill!.billType)) \nBill Total : \(String(describing: currentbill!.totalBillAmount.currency())) \(furtherDetails)"
-        return cell
+        cell.textLabel?.text = "Bill ID : \(String(describing: currentbill!.Id)) \nBill Date : \(String(describing: currentbill!.billDate.getForamttedDate())) \nBill Type : \(String(describing: currentbill!.billType)) \nBill Total : \(String(describing: currentbill!.totalBillAmount.currency()))       \(furtherDetails)"
+         return cell
     }
     
 }
