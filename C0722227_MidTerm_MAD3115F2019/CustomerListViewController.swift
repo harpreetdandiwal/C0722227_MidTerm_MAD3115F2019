@@ -45,7 +45,7 @@ class CustomerListViewController: UIViewController,UITableViewDelegate , UITable
         cust2.billDictionary[2] = bill6
         cust2.billDictionary[3] = bill5
         
-        let cust3: Customer = Customer(customerId: "3", firstName: "rizul", lastName: "Goyal", email: "rizulgoyal@gmail.com")
+        let cust3: Customer = Customer(customerId: "3", firstName: "rizul", lastName: "Goyal", email: "rizulgoyal1@gmail.com")
         
         cust3.billDictionary[1] = bill4
         
