@@ -20,6 +20,6 @@ extension Int
     }
     public func minutes() -> String
     {
-        return String.init(format: "%d Minute(s)", self)
+        return  String.init(format: "%d Minute(s)", self)
     }
 }
