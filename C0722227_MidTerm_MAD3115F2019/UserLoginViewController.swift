@@ -32,7 +32,7 @@ class UserLoginViewController: UIViewController {
         getRememberMe()
         readCustomersPlistFile()
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
     
 
