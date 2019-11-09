@@ -36,7 +36,7 @@ class NewBillViewController: UIViewController {
         txtDatePicker.inputView = datePicker
         
     }
-    
+    //datepickers
     @objc func donedatePicker(){
         
         let formatter = DateFormatter()
